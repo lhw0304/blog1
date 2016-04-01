@@ -1,0 +1,16 @@
+.lightbox-img {
+	position: fixed;
+}
+.loading{
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	background: black;
+	position: absolute;
+}
+.lightbox-img img{
+	margin: 200px 500px;
+	position: absolute;
+	z-index: 100;
+	display: none;
+}

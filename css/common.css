@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #ccc;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+/*nav,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+.openBtn{
+	height: 52px;
+	width: 52px;
+	position: absolute;
+	top: 64px;
+	right: 142px;
+	background: url(../img/nav-icon.png) no-repeat 0px 0px;
+	cursor: pointer;
+}
+.nav{
+	height: 192px;
+	position: absolute;
+	width: 100%;
+	top:-195px;
+
+}
+.navBg{
+	background: #7f7f7f;
+	opacity: 0.39;
+	filter:alpha(opacity=39);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.navUl{
+	width: 694px;
+  	height: 32px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 80px;
+}
+.navUl li {
+	float: left;
+
+}
+.navUl li a{
+	display: block;
+	margin: 8px 24px;
+	color: #fff;
+}
+.closeBtn{
+  width: 35px;
+  height: 35px;
+  background: url(../img/close2.png) no-repeat 0px 0px;
+  position: absolute;
+  right: 136px;
+  top: 50%;
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+
+body{
+	background: red;
+}
